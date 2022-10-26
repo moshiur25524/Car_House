@@ -1,0 +1,44 @@
+[
+    {
+      "name": "BMW",
+      "customer": "Moshiur",
+      "rating": 3,
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit molestiae debitis sint placeat quos deserunt optio, obcaecati rem cupiditate praesentium?"
+    },
+    {
+      "name": "Ferari",
+      "customer": "Sayma",
+      "rating": 4,
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit molestiae debitis sint placeat quos deserunt optio, obcaecati rem cupiditate praesentium? ipsum dolor sit amet consectetur adipisicing elit. Suscipit molestiae debitis sint placeat quos"
+    },
+    {
+      "name": "Marcidis",
+      "customer": "Nahid",
+      "rating": 4,
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit molestiae debitis sint placeat quos deserunt optio, obcaecati rem cupiditate praesentium?"
+    },
+    {
+      "name": "Toyota",
+      "customer": "HAFIZ",
+      "rating": 5,
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit molestiae debitis sint placeat quos deserunt optio, obcaecati rem cupiditate praesentium?"
+    },
+    {
+      "name": "Ford",
+      "customer": "Osman",
+      "rating": 4,
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit molestiae debitis sint placeat quos deserunt optio, obcaecati rem cupiditate praesentium?"
+    },
+    {
+      "name": "Honda",
+      "customer": "Rony",
+      "rating": 2,
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit molestiae debitis sint placeat quos deserunt optio, obcaecati rem cupiditate praesentium?"
+    },
+    {
+      "name": "SAIC",
+      "customer": "Tazrin",
+      "rating": 5,
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit molestiae debitis sint placeat quos deserunt optio, obcaecati rem cupiditate praesentium?"
+    }
+  ]
