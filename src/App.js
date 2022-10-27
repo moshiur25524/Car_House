@@ -9,6 +9,7 @@ import Dashboard from './Pages/Dashboard/Dashboard';
 import Reviews from './Pages/Reviews/Reviews';
 import Products from './Pages/Products/Products';
 import Blogs from './Pages/Blogs/Blogs';
+import Footer from './Pages/Footer/Footer';
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
         <Route path='/products' element={<Products/>} />
         <Route path='*' element={<NotFound/>} />
       </Routes>
+      <Footer/>
     </div>
   );
 }
