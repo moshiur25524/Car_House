@@ -1,16 +1,18 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import {  faFacebookF , } from '@fortawesome/free-brands-svg-icons';
 import React from 'react';
 import './Footer.css'
 
 const Footer = () => {
     return (
-        <footer>
+        <footer className='footer'>
             <h1>Follow us On</h1>
-            <div>
-                <a href="https://facebook.com"><FontAwesomeIcon icon="fa-brands fa-facebook" />
+            <div className='social-icons'>
+                <a href="https://facebook.com" target='_blank' rel="noreferrer"><FontAwesomeIcon icon={faFacebookF} />
                 </a>
-                <a href="https://facebook.com"><FontAwesomeIcon icon="fa-brands fa-twitter" /></a>
-                <a href="https://facebook.com"></a>
+                <a href="https://youtube.com" target='_blank' rel="noreferrer"><i class="fa fa-youtube-play"></i></a>
+                <a href="https://twitter.com" target='_blank' rel="noreferrer"><i class="fa fa-twitter"></i></a>
+                <a href="https://instagram.com" target='_blank' rel="noreferrer"><i class="fa fa-instagram"></i></a>
             </div>
             <p>All the copyright &copy; is reserved</p>
         </footer>
