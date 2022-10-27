@@ -8,7 +8,7 @@ const Home = () => {
     return (
         <div>
             <Banner/>
-            <h1 className='text-primary'>Customer Reviews: ({reviews.length})</h1>
+            <h1 className='text-primary text-center my-4'>Customer Reviews: ({reviews.length})</h1>
             <Reviews></Reviews>
             
         </div>

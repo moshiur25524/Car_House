@@ -1,11 +1,16 @@
-.footer{
+footer{
+    /* position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0; */
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     background-color: gray;
-    height: 50vh;
-    width: 100%
+    height: auto;
+    margin-top: 15px;
+    /* width: 100vh; */
 }
 
 .social-icons {

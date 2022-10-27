@@ -4,6 +4,10 @@ import React from 'react';
 import './Footer.css'
 
 const Footer = () => {
+    // const getYear =() =>{
+    //     return new Date().getFullYear();
+    // }
+
     return (
         <footer className='footer'>
             <h1>Follow us On</h1>
@@ -14,7 +18,7 @@ const Footer = () => {
                 <a href="https://twitter.com" target='_blank' rel="noreferrer"><i class="fa fa-twitter"></i></a>
                 <a href="https://instagram.com" target='_blank' rel="noreferrer"><i class="fa fa-instagram"></i></a>
             </div>
-            <p>All the copyright &copy; is reserved</p>
+            <p>All the copyright &copy; 2018-{this.getYear()} is reserved</p>
         </footer>
     );
 };
