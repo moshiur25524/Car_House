@@ -18,7 +18,8 @@ const Footer = () => {
                 <a href="https://twitter.com" target='_blank' rel="noreferrer"><i class="fa fa-twitter"></i></a>
                 <a href="https://instagram.com" target='_blank' rel="noreferrer"><i class="fa fa-instagram"></i></a>
             </div>
-            <p>All the copyright &copy; 2018-{this.getYear()} is reserved</p>
+            <p>All the copyright &copy; 2018-{new Date().getFullYear()} is reserved</p>
+            <p>Made with ❤️ for Sayma</p>
         </footer>
     );
 };
