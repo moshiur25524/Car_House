@@ -1,6 +1,7 @@
 import React from 'react';
 import MyAreaChart from '../Chart/MyAreaChart';
 import MyLineChart from '../Chart/MyLineChart';
+import MyPieChart from '../Chart/MyPieChart';
 
 const Dashboard = () => {
     return (
@@ -10,6 +11,8 @@ const Dashboard = () => {
             <MyLineChart></MyLineChart>
             <h2>Area chart of prouducts</h2>
             <MyAreaChart></MyAreaChart>
+            <h2>Pie Chart of Products</h2>
+            <MyPieChart />
             </div>
         </div>
     );
