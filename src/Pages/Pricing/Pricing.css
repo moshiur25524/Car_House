@@ -1,0 +1,9 @@
+.pricing-body{
+    background-color: rgb(185, 135, 220);
+}
+
+.pricing{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
