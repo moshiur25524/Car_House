@@ -13,6 +13,8 @@ import Footer from './Pages/Footer/Footer';
 import { useEffect } from 'react';
 import { faBorderNone } from '@fortawesome/free-solid-svg-icons';
 import ReviewDetail from './Pages/ReviewDetail/ReviewDetail';
+import BdAdress from './Pages/Contact/BdAdress';
+import UsAddress from './Pages/Contact/UsAddress';
 
 function App() {
   useEffect(() => {
@@ -25,7 +27,10 @@ function App() {
         <Route path='/' element={<Home></Home>} />
         <Route path='/home' element={<Home></Home>} />
         <Route path='/about' element={<About></About>} />
-        <Route path='/contact' element={<Contact />} />
+        <Route path='/contact' element={<Contact></Contact>}>
+          <Route path='bd-address' element={<BdAdress></BdAdress>}></Route>
+          <Route path='us-address' element={<UsAddress></UsAddress>}></Route>
+        </Route>
         <Route path='/reviews' element={<Reviews />} />
         <Route path='/reviews/:reviewId' element={<ReviewDetail />} />
         <Route path='/dashboard' element={<Dashboard />} />
@@ -42,7 +47,7 @@ function App() {
         }}
         style={{
           border: 'none',
-          borderRadius:["10%"],
+          borderRadius: ["10%"],
           position: 'fixed',
           padding: '1rem 2rem',
           fontSize: '20px',
@@ -53,7 +58,7 @@ function App() {
           textAlign: 'center',
         }}
       >
-       ↑ Top
+        ↑ Top
       </button>
     </div>
   );
