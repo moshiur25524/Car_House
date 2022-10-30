@@ -12,6 +12,7 @@ import Blogs from './Pages/Blogs/Blogs';
 import Footer from './Pages/Footer/Footer';
 import { useEffect } from 'react';
 import { faBorderNone } from '@fortawesome/free-solid-svg-icons';
+import ReviewDetail from './Pages/ReviewDetail/ReviewDetail';
 
 function App() {
   useEffect(() => {
@@ -26,12 +27,15 @@ function App() {
         <Route path='/about' element={<About></About>} />
         <Route path='/contact' element={<Contact />} />
         <Route path='/reviews' element={<Reviews />} />
+        <Route path='/reviews/:reviewId' element={<ReviewDetail />} />
         <Route path='/dashboard' element={<Dashboard />} />
         <Route path='/blogs' element={<Blogs />} />
         <Route path='/products' element={<Products />} />
         <Route path='*' element={<NotFound />} />
       </Routes>
       <Footer />
+
+      {/* Button for scroll to top */}
       <button
         onClick={() => {
           window.scrollTo({ top: 0, left: 0, behavior: 'smooth' });
