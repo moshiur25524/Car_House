@@ -14,9 +14,9 @@ const Footer = () => {
             <div className='social-icons'>
                 <a href="https://facebook.com" target='_blank' rel="noreferrer"><FontAwesomeIcon icon={faFacebookF} />
                 </a>
-                <a href="https://youtube.com" target='_blank' rel="noreferrer"><i class="fa fa-youtube-play"></i></a>
-                <a href="https://twitter.com" target='_blank' rel="noreferrer"><i class="fa fa-twitter"></i></a>
-                <a href="https://instagram.com" target='_blank' rel="noreferrer"><i class="fa fa-instagram"></i></a>
+                <a href="https://youtube.com" target='_blank' rel="noreferrer"><i className="fa fa-youtube-play"></i></a>
+                <a href="https://twitter.com" target='_blank' rel="noreferrer"><i className="fa fa-twitter"></i></a>
+                <a href="https://instagram.com" target='_blank' rel="noreferrer"><i className="fa fa-instagram"></i></a>
             </div>
             <p>All the copyright &copy; 2018-{new Date().getFullYear()} is reserved</p>
             <p>Made with ❤️ for Sayma</p>

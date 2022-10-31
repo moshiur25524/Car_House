@@ -12,12 +12,12 @@ const Review = ({ review }) => {
     }
     return (
         <div>
-            <div class="card " style={{width: '18rem'}}>
-                <div class="card-body card-style">
-                    <h5 class="card-title">{name}</h5>
-                    <h6 class="card-subtitle mb-2 text-muted">{customer}</h6>
+            <div className="card " style={{width: '18rem'}}>
+                <div className="card-body card-style">
+                    <h5 className="card-title">{name}</h5>
+                    <h6 className="card-subtitle mb-2 text-muted">{customer}</h6>
                     <p><small>Ratings: {rating}</small></p>
-                    <p class="card-text">{description}</p>
+                    <p className="card-text">{description}</p>
                     <button onClick={handleReviewsButton}>{name} {id}</button>
                 </div>
             </div>
