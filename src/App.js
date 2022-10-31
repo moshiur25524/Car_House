@@ -15,6 +15,7 @@ import { faBorderNone } from '@fortawesome/free-solid-svg-icons';
 import ReviewDetail from './Pages/ReviewDetail/ReviewDetail';
 import BdAdress from './Pages/Contact/BdAdress';
 import UsAddress from './Pages/Contact/UsAddress';
+import Volunteers from './Pages/Volunteers/Volunteers';
 
 function App() {
   useEffect(() => {
@@ -35,6 +36,7 @@ function App() {
         <Route path='/reviews/:reviewId' element={<ReviewDetail />} />
         <Route path='/dashboard' element={<Dashboard />} />
         <Route path='/blogs' element={<Blogs />} />
+        <Route path='/volunteers' element={<Volunteers></Volunteers>} />
         <Route path='/products' element={<Products />} />
         <Route path='*' element={<NotFound />} />
       </Routes>
@@ -42,6 +44,7 @@ function App() {
 
       {/* Button for scroll to top */}
       <button
+        title='Scroll to top'
         onClick={() => {
           window.scrollTo({ top: 0, left: 0, behavior: 'smooth' });
         }}

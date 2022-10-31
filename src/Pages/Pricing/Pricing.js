@@ -10,7 +10,7 @@ const Pricing = () => {
     ]
     return (
         <div className='pricing-body container'>
-            <h1 className='text-center'>The Best Deal of price </h1>
+            <h1 className='text-center text-white text-bold'>The Best Deal of price </h1>
             <div className='pricing'>
                 {
                     pricingItems.map(item => <PricingOption

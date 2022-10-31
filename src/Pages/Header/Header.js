@@ -36,6 +36,9 @@ const Header = () => {
                                 <CustomLink className="nav-link" aria-current="page" to='/blogs'>Blogs</CustomLink>
                             </li>
                             <li className="nav-item">
+                                <CustomLink className="nav-link" aria-current="page" to='/volunteers'>Volunteers</CustomLink>
+                            </li>
+                            <li className="nav-item">
                                 <CustomLink className="nav-link" aria-current="page" to='/products'>Products</CustomLink>
                             </li>
                         </ul>

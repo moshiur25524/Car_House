@@ -1,9 +1,13 @@
 .pricing-body{
     background-color: rgb(185, 135, 220);
+    margin: 100px auto;
+    height: 250px;
+    border-radius: 10px;
 }
 
 .pricing{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 10px;
+    
 }
