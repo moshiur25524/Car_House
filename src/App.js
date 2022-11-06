@@ -11,7 +11,6 @@ import Products from './Pages/Products/Products';
 import Blogs from './Pages/Blogs/Blogs';
 import Footer from './Pages/Footer/Footer';
 import { useEffect } from 'react';
-import { faBorderNone } from '@fortawesome/free-solid-svg-icons';
 import ReviewDetail from './Pages/ReviewDetail/ReviewDetail';
 import BdAdress from './Pages/Contact/BdAdress';
 import UsAddress from './Pages/Contact/UsAddress';
@@ -43,7 +42,7 @@ function App() {
       <Footer />
 
       {/* Button for scroll to top */}
-      <button
+      {/* <button
         title='Scroll to top'
         onClick={() => {
           window.scrollTo({ top: 0, left: 0, behavior: 'smooth' });
@@ -52,7 +51,7 @@ function App() {
           border: 'none',
           borderRadius: ["10%"],
           position: 'fixed',
-          padding: '1rem 2rem',
+          padding: '0 0.5rem',
           fontSize: '20px',
           bottom: '40px',
           right: '40px',
@@ -61,8 +60,8 @@ function App() {
           textAlign: 'center',
         }}
       >
-        ↑ Top
-      </button>
+        ↑ 
+      </button> */}
     </div>
   );
 }

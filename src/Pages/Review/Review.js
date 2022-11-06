@@ -11,8 +11,8 @@ const Review = ({ review }) => {
         navigate(`/reviews/${id}`)
     }
     return (
-        <div>
-            <div className="card " style={{width: '18rem'}}>
+        <div className='review'>
+            <div className="card box-shadow" style={{width: '18rem'}}>
                 <div className="card-body card-style">
                     <h5 className="card-title">{name}</h5>
                     <h6 className="card-subtitle mb-2 text-muted">{customer}</h6>
