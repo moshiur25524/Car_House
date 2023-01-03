@@ -14,16 +14,3 @@ The Live Link of [Car House Project](https://gleeful-strudel-be6717.netlify.app/
   Four charts are made in the dashboard component by taking help form the (Rechart npm package)
 - Volunteers:
   In the volunteers component, a seach input is set to search for volunteers.
-
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
