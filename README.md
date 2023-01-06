@@ -1,6 +1,6 @@
 # Car_House
 
-The Live Link of [Car House Project](https://gleeful-strudel-be6717.netlify.app/).
+The Live Link of [Car House](https://gleeful-strudel-be6717.netlify.app/).
 
 > ## Main Features of Car House
 
